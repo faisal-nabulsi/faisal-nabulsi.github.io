@@ -1,10 +1,126 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Faisal Nabulsi</title>
-  </head>
-  <body>
-    <h1>Hello, welcome to my site!</h1>
-    <p>Built with GitHub Pages 🚀</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faisal Nabulsi</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-navy-900 bg-blue-900 text-white py-12 text-center">
+    <h1 class="text-4xl font-bold">Faisal Nabulsi</h1>
+    <p class="text-lg mt-2">Computer Science & Data Science @ UC Berkeley | AI Researcher</p>
+    <div class="mt-4 space-x-4">
+      <a href="mailto:faisalnab25@gmail.com" class="hover:underline">faisalnab25@gmail.com</a>
+      <span>⋄</span>
+      <a href="https://www.linkedin.com/in/faisalnabulsi/" class="hover:underline">LinkedIn</a>
+      <span>⋄</span>
+      <a href="https://github.com/faisal-nabulsi" class="hover:underline">GitHub</a>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="bg-blue-800 text-white sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto flex justify-center space-x-6 py-3 text-sm font-medium">
+      <a href="#about" class="hover:underline">About</a>
+      <a href="#skills" class="hover:underline">Skills</a>
+      <a href="#experience" class="hover:underline">Experience</a>
+      <a href="#research" class="hover:underline">Research</a>
+      <a href="#awards" class="hover:underline">Awards</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </div>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="max-w-5xl mx-auto py-12 px-4">
+    <h2 class="text-2xl font-bold mb-4 text-blue-900">About Me</h2>
+    <p>
+      I’m a student at UC Berkeley (expected 2028) pursuing Computer Science & Data Science. 
+      My focus is on AI research, machine learning, and building impactful software systems. 
+      I’ve published research, taught CS/AI to students, and co-founded initiatives to expand tech education access.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-5xl mx-auto py-12 px-4">
+    <h2 class="text-2xl font-bold mb-6 text-blue-900">Skills</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="border rounded-lg p-4 shadow-sm">
+        <h3 class="font-semibold mb-2">Languages</h3>
+        <p>Python, Java, C++, SQL, R</p>
+      </div>
+      <div class="border rounded-lg p-4 shadow-sm">
+        <h3 class="font-semibold mb-2">Frameworks & Tools</h3>
+        <p>PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Docker, Git, AWS</p>
+      </div>
+      <div class="border rounded-lg p-4 shadow-sm">
+        <h3 class="font-semibold mb-2">Focus Areas</h3>
+        <p>Supervised & Contrastive Learning, Self-Supervised Learning, APIs, Data Pipelines</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="max-w-5xl mx-auto py-12 px-4">
+    <h2 class="text-2xl font-bold mb-6 text-blue-900">Experience</h2>
+    <div class="space-y-6">
+      <div class="border rounded-lg p-6 shadow-sm">
+        <h3 class="font-semibold text-lg">Research Intern — Fusion AI</h3>
+        <p class="italic text-sm">San Francisco, CA · Jun 2024 – Present</p>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li>Co-authored papers on data-centric ML, class imbalance, and spatiotemporal modeling.</li>
+          <li>Implemented Python APIs & ETL pipelines; improved training throughput by 30%.</li>
+          <li>Built evaluation harnesses and collaborated with researchers in Agile sprints.</li>
+        </ul>
+      </div>
+      <div class="border rounded-lg p-6 shadow-sm">
+        <h3 class="font-semibold text-lg">Founder & Lead Instructor — IFSI</h3>
+        <p class="italic text-sm">Boston, MA · May 2023 – Present</p>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li>Designed and taught a 16-week CS & AI curriculum for 30+ students.</li>
+          <li>Raised $100,000 for laptops and resources; managed budget & deployment.</li>
+          <li>Mentored students on Python, ML fundamentals, and full-stack project building.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research -->
+  <section id="research" class="max-w-5xl mx-auto py-12 px-4">
+    <h2 class="text-2xl font-bold mb-6 text-blue-900">Research & Publications</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li><strong>AquaSent-TMMAE:</strong> Self-Supervised Learning for Water Quality Monitoring — KDD DeepSpatial Workshop (Top 5% Spotlight Project at NeurIPS High School Track, 2024).</li>
+      <li><strong>CLE-SMOTE:</strong> Contrastive Learning-Enhanced SMOTE for Imbalanced Data — ICLR DMLR Workshop, 2024.</li>
+      <li><strong>SCOMAE:</strong> Tuberculosis Detection from Cough Audio — ISEF 2024 (Grand Award Winner; USAID 1st Place Global Health & Nutrition).</li>
+    </ul>
+  </section>
+
+  <!-- Awards -->
+  <section id="awards" class="max-w-5xl mx-auto py-12 px-4">
+    <h2 class="text-2xl font-bold mb-6 text-blue-900">Honors & Awards</h2>
+    <ul class="list-disc list-inside space-y-1">
+      <li>ISEF Grand Award — USAID Global Health Champion</li>
+      <li>California State Science & Engineering Fair — 3rd Place</li>
+      <li>Yale Science & Engineering Association Award</li>
+      <li>Chevron Innovative Technology Award</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-5xl mx-auto py-12 px-4">
+    <h2 class="text-2xl font-bold mb-4 text-blue-900">Contact</h2>
+    <p>Email: <a href="mailto:faisalnab25@gmail.com" class="text-blue-700 hover:underline">faisalnab25@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/faisalnabulsi/" class="text-blue-700 hover:underline">linkedin.com/in/faisalnabulsi</a></p>
+    <p>GitHub: <a href="https://github.com/faisal-nabulsi" class="text-blue-700 hover:underline">github.com/faisal-nabulsi</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-4">
+    <p>© 2025 Faisal Nabulsi</p>
+  </footer>
+
+</body>
 </html>
